@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirajum Munir - MERN Stack Developer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">SIRAJUM MUNIR<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#academic">ACADEMIC</a></li>
+                <li><a href="#achievement">ACHIEVEMENT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#" class="btn btn-primary btn-glow">RESUME <i class="fa-solid fa-download"></i></a>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <!-- Grid background pattern -->
+            <div class="grid-bg"></div>
+
+            <div class="hero-container container">
+                <div class="hero-content">
+                    <div class="availability-badge">
+                        <span class="dot"></span> AVAILABLE FOR PROJECTS
+                    </div>
+                    <h1 class="hero-title">Hi, I'm <br><span class="gradient-text">Sirajum Munir</span></h1>
+                    <h2 class="hero-subtitle">Crafting MERN Masterpieces</h2>
+                    <p class="hero-description">
+                        I architect high-performance web applications where <span class="highlight">speed</span> meets
+                        <span class="highlight">aesthetic perfection</span>.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#" class="btn btn-primary btn-glow">Download Resume <i
+                                class="fa-solid fa-download"></i></a>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="orbital-rings">
+                        <div class="ring ring-outer"></div>
+                        <div class="ring ring-inner"></div>
+                        <!-- Tech Orbits -->
+                        <div class="orbit-icon icon-mongo"><i class="fa-solid fa-database"></i></div>
+                        <div class="orbit-icon icon-react"><i class="fa-brands fa-react"></i></div>
+                        <div class="orbit-icon icon-node"><i class="fa-brands fa-node-js"></i></div>
+                        <div class="orbit-icon icon-js"><i class="fa-brands fa-js"></i></div>
+
+                        <div class="profile-glow"></div>
+                        <img src="media/profile.jpg" alt="Sirajum Munir" class="hero-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container about-grid">
+                <div class="about-image-wrapper">
+                    <div class="about-img-container">
+                        <img src="media/profile.jpg" alt="Sirajum Munir" class="about-img">
+                        <div class="status-badge">
+                            <span class="dot green"></span> CORE SYSTEM: ONLINE
+                        </div>
+                        <div class="floating-badge">
+                            <h3>35+</h3>
+                            <p>MERN STACK</p>
+                        </div>
+                    </div>
+                    <div class="about-info-cards">
+                        <div class="info-card-small">
+                            <i class="fa-solid fa-user"></i> Sirajum Munir
+                        </div>
+                        <div class="info-card-small">
+                            <i class="fa-solid fa-location-dot"></i> Dhaka, Bangladesh
+                        </div>
+                        <div class="info-card-small">
+                            <i class="fa-solid fa-terminal"></i> Full-Stack Enthusiast
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <div class="section-label">THE ARCHITECT</div>
+                    <h2 class="section-title">I am <span class="gradient-text">Sirajum Munir.</span></h2>
+                    <p class="section-subtitle">Transforming complex ideas into <span
+                            class="highlight-purple">high-performance</span> digital realities.</p>
+                    <p class="about-description">
+                        My journey isn't just about syntax and semicolons; it's about engineering meaningful solutions.
+                        I specialize in building scalable MERN ecosystems that balance technical complexity with elegant
+                        UI.
+                    </p>
+
+                    <div class="skills-pills">
+                        <span class="pill">UI/UX DESIGN</span>
+                        <span class="pill">REST API</span>
+                        <span class="pill">STATE MANAGEMENT</span>
+                        <span class="pill">FIREBASE</span>
+                        <span class="pill">JWT AUTH</span>
+                    </div>
+
+                    <div class="tech-grid">
+                        <div class="tech-card">
+                            <i class="fa-solid fa-code"></i>
+                            <h4>FRONTEND</h4>
+                            <p>React / Next.js / Tailwind</p>
+                        </div>
+                        <div class="tech-card">
+                            <i class="fa-solid fa-server"></i>
+                            <h4>BACKEND</h4>
+                            <p>Node / Express / Firebase</p>
+                        </div>
+                        <div class="tech-card">
+                            <i class="fa-solid fa-database"></i>
+                            <h4>DATABASE</h4>
+                            <p>MongoDB / PostgreSQL</p>
+                        </div>
+                        <div class="tech-card">
+                            <i class="fa-solid fa-rocket"></i>
+                            <h4>PROJECTS</h4>
+                            <p>35+ Scalable Apps</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-secondary mt-2">READ MY STORY <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <div class="skills-header-flex">
+                    <div class="skills-title-area">
+                        <div class="section-label line-before">SYSTEM CAPABILITIES</div>
+                        <h2 class="section-title massive">CORE<br><span class="gradient-text">ENGINE.</span></h2>
+                    </div>
+                    <div class="skills-desc-area">
+                        <p class="skills-desc">EXPERTISE IN ARCHITECTING HIGH-FREQUENCY MERN ECOSYSTEMS WITH A FOCUS ON
+                            PERFORMANCE AND ATOMIC DESIGN.</p>
+                        <div class="purple-line"></div>
+                    </div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Frontend Architecture -->
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <span class="cat-title"><span class="dot purple"></span> FRONTEND ARCHITECTURE</span>
+                            <span class="cat-id">0x01</span>
+                        </div>
+                        <div class="skill-items-grid">
+                            <div class="skill-item">
+                                <i class="fa-brands fa-react"></i>
+                                <span>REACT.JS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-brands fa-js"></i>
+                                <span>JAVASCRIPT</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="icon-custom"><i class="fa-brands fa-css3-alt"></i></div>
+                                <span>TAILWIND</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-n"></i>
+                                <span>NEXT.JS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-bolt"></i>
+                                <span>ANIMATIONS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-pen-nib"></i>
+                                <span>UI DESIGN</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Server Logic -->
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <span class="cat-title"><span class="dot purple"></span> SERVER LOGIC</span>
+                            <span class="cat-id">0x02</span>
+                        </div>
+                        <div class="skill-items-grid cols-3">
+                            <div class="skill-item">
+                                <i class="fa-brands fa-node-js"></i>
+                                <span>NODE.JS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-server"></i>
+                                <span>EXPRESS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-leaf"></i>
+                                <span>MONGODB</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-fire"></i>
+                                <span>FIREBASE</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span>POSTMAN</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-key"></i>
+                                <span>AUTH</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-bottom-grid">
+                        <!-- Vitals & Tools -->
+                        <div class="skill-category-card small-col">
+                            <div class="skill-cat-header">
+                                <span class="cat-title"><span class="dot purple"></span> VITALS & TOOLS</span>
+                                <span class="cat-id">0x03</span>
+                            </div>
+                            <div class="skill-items-grid cols-3">
+                                <div class="skill-item">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>GITHUB</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fa-brands fa-git-alt"></i>
+                                    <span>GIT FLOW</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fa-solid fa-caret-up"></i>
+                                    <span>VERCEL</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- MERN Specialization Highlight -->
+                        <div class="skill-highlight-card">
+                            <div class="highlight-content">
+                                <h3>MERN Specialization</h3>
+                                <p>Advanced integration of MongoDB aggregation pipelines with React Context and
+                                    optimized Node.js streams.</p>
+                            </div>
+                            <div class="highlight-icons">
+                                <i class="fa-brands fa-react icon-box"></i>
+                                <i class="fa-brands fa-node-js icon-box"></i>
+                                <i class="fa-solid fa-leaf icon-box active"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Project <span class="gradient-text">Archive.</span></h2>
+                    <p class="section-subtitle-center">Showcasing my evolution as a MERN specialist—from foundational
+                        logic to elite full-stack ecosystems.</p>
+                </div>
+
+                <div id="projects-container">
+                    <div class="project-tier">
+                        <div class="tier-label">TIER 01</div>
+                        <h3 class="tier-title">Elite Full-Stack Systems</h3>
+
+                        <div class="project-grid">
+                            <!-- Project 1 -->
+                            <div class="project-card">
+                                <div class="project-img-wrapper">
+                                    <div class="project-tags-top">
+                                        <span class="tag">REACT</span>
+                                        <span class="tag">NODE.JS</span>
+                                        <span class="tag">EXPRESS.JS</span>
+                                    </div>
+                                    <img src="media/profile.jpg" alt="Book Courier" class="project-img">
+                                </div>
+                                <div class="project-content">
+                                    <h4 class="project-title">Book Courier</h4>
+                                    <p class="project-desc">A full-stack digital library application featuring secure
+                                        Firebase authentication and comprehensive book management...</p>
+                                    <div class="project-footer">
+                                        <a href="#" class="btn btn-primary btn-sm"><i
+                                                class="fa-solid fa-circle-info"></i> DETAILS</a>
+                                        <a href="#" class="btn-icon"><i class="fa-brands fa-github"></i> <i
+                                                class="fa-solid fa-arrow-up-right-from-square"
+                                                style="font-size: 10px;"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project 2 -->
+                            <div class="project-card">
+                                <div class="project-img-wrapper">
+                                    <div class="project-tags-top">
+                                        <span class="tag">REACT</span>
+                                        <span class="tag">FIREBASE</span>
+                                        <span class="tag">TAILWINDCSS</span>
+                                    </div>
+                                    <img src="media/profile.jpg" alt="Library Haven" class="project-img">
+                                </div>
+                                <div class="project-content">
+                                    <h4 class="project-title">Library Haven</h4>
+                                    <p class="project-desc">A high-performance digital library management dashboard
+                                        focused on modern UI/UX, secure access...</p>
+                                    <div class="project-footer">
+                                        <a href="#" class="btn btn-primary btn-sm"><i
+                                                class="fa-solid fa-circle-info"></i> DETAILS</a>
+                                        <a href="#" class="btn-icon"><i class="fa-brands fa-github"></i> <i
+                                                class="fa-solid fa-arrow-up-right-from-square"
+                                                style="font-size: 10px;"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project 3 -->
+                            <div class="project-card">
+                                <div class="project-img-wrapper">
+                                    <div class="project-tags-top">
+                                        <span class="tag">REACT.JS</span>
+                                        <span class="tag">TAILWIND CSS</span>
+                                        <span class="tag">RESTFUL APIS</span>
+                                    </div>
+                                    <img src="media/profile.jpg" alt="Game Zone" class="project-img">
+                                </div>
+                                <div class="project-content">
+                                    <h4 class="project-title">Game Zone</h4>
+                                    <p class="project-desc">Interactive dashboard for app discovery using visualization
+                                        libraries.</p>
+                                    <div class="project-footer">
+                                        <a href="#" class="btn btn-primary btn-sm"><i
+                                                class="fa-solid fa-circle-info"></i> DETAILS</a>
+                                        <a href="#" class="btn-icon"><i class="fa-brands fa-github"></i> <i
+                                                class="fa-solid fa-arrow-up-right-from-square"
+                                                style="font-size: 10px;"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-tier">
+                        <h3 class="tier-title line-through">Advanced Web Apps</h3>
+
+                        <div class="project-grid">
+                            <!-- Project 4 -->
+                            <div class="project-card">
+                                <div class="project-img-wrapper">
+                                    <div class="project-tags-top">
+                                        <span class="tag">REACT</span>
+                                        <span class="tag">REACT TOASTIFY</span>
+                                        <span class="tag">TAILWINDCSS</span>
+                                    </div>
+                                    <img src="media/profile.jpg" alt="Find Apps" class="project-img">
+                                </div>
+                                <div class="project-content">
+                                    <h4 class="project-title">Find Apps</h4>
+                                    <p class="project-desc">Find Apps is a modern and responsive React web application
+                                        where users can explore trending apps...</p>
+                                    <div class="project-footer">
+                                        <a href="#" class="btn btn-primary btn-sm"><i
+                                                class="fa-solid fa-circle-info"></i> DETAILS</a>
+                                        <a href="#" class="btn-icon"><i class="fa-brands fa-github"></i> <i
+                                                class="fa-solid fa-arrow-up-right-from-square"
+                                                style="font-size: 10px;"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project 5 -->
+                            <div class="project-card">
+                                <div class="project-img-wrapper">
+                                    <div class="project-tags-top">
+                                        <span class="tag">REACT</span>
+                                        <span class="tag">JAVASCRIPT (ES6+)</span>
+                                    </div>
+                                    <img src="media/profile.jpg" alt="Room Decore" class="project-img">
+                                </div>
+                                <div class="project-content">
+                                    <h4 class="project-title">Room Decore</h4>
+                                    <p class="project-desc">A React app where users can explore and interact with home
+                                        decor items, view details, and simulate...</p>
+                                    <div class="project-footer">
+                                        <a href="#" class="btn btn-primary btn-sm"><i
+                                                class="fa-solid fa-circle-info"></i> DETAILS</a>
+                                        <a href="#" class="btn-icon"><i class="fa-brands fa-github"></i> <i
+                                                class="fa-solid fa-arrow-up-right-from-square"
+                                                style="font-size: 10px;"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project 6 -->
+                            <div class="project-card">
+                                <div class="project-img-wrapper">
+                                    <div class="project-tags-top">
+                                        <span class="tag">REACT</span>
+                                        <span class="tag">JAVASCRIPT (ES6+)</span>
+                                    </div>
+                                    <img src="media/profile.jpg" alt="Boi Poka" class="project-img">
+                                </div>
+                                <div class="project-content">
+                                    <h4 class="project-title">Boi Poka</h4>
+                                    <p class="project-desc">A React web app where users can browse books, view details,
+                                        add to wishlist, and manage selections...</p>
+                                    <div class="project-footer">
+                                        <a href="#" class="btn btn-primary btn-sm"><i
+                                                class="fa-solid fa-circle-info"></i> DETAILS</a>
+                                        <a href="#" class="btn-icon"><i class="fa-brands fa-github"></i> <i
+                                                class="fa-solid fa-arrow-up-right-from-square"
+                                                style="font-size: 10px;"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pagination">
+                        <div class="page-numbers">
+                            <span class="page active">01</span>
+                            <span class="page">02</span>
+                        </div>
+                        <div class="progress-bar">
+                            <span class="progress-label">DISCOVERY PROGRESS: 50%</span>
+                            <div class="bar-bg">
+                                <div class="bar-fill" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Foundation -->
+        <section id="academic" class="academic section">
+            <div class="container">
+                <h2 class="section-title">Academic <span class="gradient-text">Foundation.</span></h2>
+                <div id="academic-container">
+
+                    <!-- University -->
+                    <div class="academic-card large no-image">
+                        <div class="academic-content">
+                            <div class="academic-header">
+                                <span class="academic-type">UNIVERSITY CAREER</span>
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <h3 class="academic-institute">Daffodil International University</h3>
+                            <div class="academic-details">
+                                <div class="detail-item"><i class="fa-solid fa-location-dot"></i> Ashulia, Dhaka</div>
+                                <div class="detail-item"><i class="fa-solid fa-globe"></i> <a href="#">Official
+                                        Website</a></div>
+                                <div class="detail-item"><i class="fa-solid fa-award"></i> Result: CGPA 3.69</div>
+                                <div class="detail-item"><i class="fa-regular fa-calendar"></i> 2023 - Present</div>
+                            </div>
+                            <div class="academic-footer">
+                                <span class="btn-pill"><span class="dot purple"></span> COMPUTER SCIENCE &
+                                    ENGINEERING</span>
+                                <a href="#" class="btn-outline">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="academic-grid">
+                        <div class="academic-card small no-image">
+                            <div class="academic-content">
+                                <div class="academic-header">
+                                    <span class="academic-type">HIGHER SECONDARY (HSC)</span>
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                </div>
+                                <h3 class="academic-institute">Govt. Shamsur Rahman College</h3>
+                                <div class="academic-details sm">
+                                    <div class="detail-item"><i class="fa-solid fa-location-dot"></i> Rangpur,
+                                        Bangladesh</div>
+                                    <div class="detail-item"><i class="fa-solid fa-globe"></i> <a href="#">Official
+                                            Website</a></div>
+                                    <div class="detail-item"><i class="fa-solid fa-award"></i> Result: GPA 5.00</div>
+                                    <div class="detail-item"><i class="fa-regular fa-calendar"></i> 2021 - 2022</div>
+                                </div>
+                                <div class="academic-footer">
+                                    <span class="btn-pill"><span class="dot purple"></span> SCIENCE</span>
+                                    <a href="#" class="btn-outline">View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="academic-card small no-image">
+                            <div class="academic-content">
+                                <div class="academic-header">
+                                    <span class="academic-type">SECONDARY SCHOOL (SSC)</span>
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                </div>
+                                <h3 class="academic-institute">Idilput pilote high School</h3>
+                                <div class="academic-details sm">
+                                    <div class="detail-item"><i class="fa-solid fa-location-dot"></i> Gorsthanpara,
+                                        Bangladesh</div>
+                                    <div class="detail-item"><i class="fa-solid fa-globe"></i> <a href="#">Official
+                                            Website</a></div>
+                                    <div class="detail-item"><i class="fa-solid fa-award"></i> Result: GPA 5.00</div>
+                                    <div class="detail-item"><i class="fa-regular fa-calendar"></i> 2019 - 2020</div>
+                                </div>
+                                <div class="academic-footer">
+                                    <span class="btn-pill"><span class="dot purple"></span> SCIENCE</span>
+                                    <a href="#" class="btn-outline">View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievement Section -->
+        <section id="achievement" class="achievement section">
+            <div class="container">
+                <div class="achievement-top-flex">
+                    <div>
+                        <div class="btn-pill mb-4"><i class="fa-solid fa-trophy highlight-purple"></i> MILESTONES &
+                            RECOGNITION</div>
+                        <h2 class="section-title huge">WINNING<br><span class="gradient-text">MOMENTS.</span></h2>
+                    </div>
+                    <blockquote class="quote">
+                        <i class="fa-solid fa-quote-right quote-icon"></i>
+                        "Excellence is not an act, but a habit. These are the markers of my dedication."
+                    </blockquote>
+                </div>
+
+                <div id="achievement-container" class="achievement-grid">
+
+                    <!-- Achievement 1 -->
+                    <div class="achievement-card">
+                        <div class="achieve-header">
+                            <div class="achieve-icon gold"><i class="fa-solid fa-trophy"></i></div>
+                            <span class="achieve-date">NOV 2023</span>
+                        </div>
+                        <h3 class="achieve-title">Takeoff Program Winner</h3>
+                        <p class="achieve-institute">Daffodil International University</p>
+                        <p class="achieve-desc">Recognized for developing an open-source library management system used
+                            by 500+ students during the campus tech fest.</p>
+                        <div class="achieve-footer">
+                            <span class="dot purple"></span>
+                            <a href="#" class="verify-link">VERIFY <i class="fa-solid fa-arrow-up-right-from-square"
+                                    style="font-size: 10px;"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 2 -->
+                    <div class="achievement-card">
+                        <div class="achieve-header">
+                            <div class="achieve-icon silver"><i class="fa-solid fa-medal"></i></div>
+                            <span class="achieve-date">JUNE 2024</span>
+                        </div>
+                        <h3 class="achieve-title">Unlock Algorithm Contest</h3>
+                        <p class="achieve-institute">Inter-University Coding Expo</p>
+                        <p class="achieve-desc">Secured 2nd place among 50 teams by building a real-time disaster
+                            management dashboard using React and Firebase.</p>
+                        <div class="achieve-footer">
+                            <span class="dot purple"></span>
+                            <a href="#" class="verify-link">VERIFY <i class="fa-solid fa-arrow-up-right-from-square"
+                                    style="font-size: 10px;"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 3 -->
+                    <div class="achievement-card">
+                        <div class="achieve-header">
+                            <div class="achieve-icon bronze"><i class="fa-solid fa-award"></i></div>
+                            <span class="achieve-date">JAN 2019</span>
+                        </div>
+                        <h3 class="achieve-title">Under-19 Football Championship</h3>
+                        <p class="achieve-institute">Gaibandha Govt Boys</p>
+                        <p class="achieve-desc">Received prestigious academic recognition for maintaining a CGPA of
+                            3.78+ for four consecutive semesters.</p>
+                        <div class="achieve-footer">
+                            <span class="dot purple"></span>
+                            <a href="#" class="verify-link">VERIFY <i class="fa-solid fa-arrow-up-right-from-square"
+                                    style="font-size: 10px;"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info-area">
+                        <h2 class="section-title huge italic">LET'S <span class="gradient-text">CONNECT.</span></h2>
+                        <p class="contact-subtitle">Have a project in mind or just want to say hi? Feel free to reach
+                            out.<br>I'm always open to discussing new opportunities.</p>
+
+                        <div class="contact-methods">
+                            <div class="contact-method-card">
+                                <div class="method-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="method-info">
+                                    <span class="method-label">EMAIL ME</span>
+                                    <span class="method-value">munir2305101008@diu.edu.bd</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-method-card">
+                                <div class="method-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="method-info">
+                                    <span class="method-label">LOCATION</span>
+                                    <span class="method-value">Mirpur-1, Dhaka, Bangladesh</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-area">
+                        <form class="contact-form" action="https://formspree.io/f/mqkrpkpw" method="POST">
+                            <div class="form-group">
+                                <label for="name">YOUR NAME</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">EMAIL ADDRESS</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">MESSAGE</label>
+                                <textarea id="message" name="message" rows="4" placeholder="What's on your mind?"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">SEND MAIL <i
+                                    class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sirajum Munir. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
