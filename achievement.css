@@ -174,3 +174,17 @@
         align-items: flex-start;
     }
 }
+
+@media (max-width: 768px) {
+    .achievement-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title.huge {
+        font-size: 3rem;
+    }
+
+    .achievement-card {
+        padding: 20px;
+    }
+}

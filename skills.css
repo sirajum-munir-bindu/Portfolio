@@ -238,4 +238,27 @@
         flex-direction: column;
         text-align: center;
     }
+
+    .section-title.massive {
+        font-size: 3rem;
+    }
+
+    .skill-category-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-items-grid {
+        gap: 20px 10px;
+    }
+
+    .skill-item i,
+    .skill-item .icon-custom {
+        font-size: 24px;
+    }
+
+    .skill-item span {
+        font-size: 9px;
+    }
 }

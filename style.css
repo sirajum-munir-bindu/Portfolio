@@ -630,6 +630,83 @@ ul {
     }
 
     .floating-badge {
-        right: 20px;
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .orbital-rings {
+        width: 300px;
+        height: 300px;
+    }
+
+    .hero-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .profile-glow {
+        width: 180px;
+        height: 180px;
+    }
+
+    .orbit-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .tech-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-info-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .orbital-rings {
+        width: 260px;
+        height: 260px;
+        margin: 0 auto;
+    }
+
+    .hero-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile-glow {
+        width: 150px;
+        height: 150px;
+    }
+
+    .hero-cta {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .floating-badge {
+        padding: 10px;
+    }
+
+    .floating-badge h3 {
+        font-size: 20px;
+    }
+
+    .about-info-cards {
+        flex-direction: column;
     }
 }

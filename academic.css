@@ -150,3 +150,27 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 768px) {
+    .academic-details {
+        grid-template-columns: 1fr;
+    }
+
+    .academic-institute {
+        font-size: 20px;
+    }
+
+    .small .academic-institute {
+        font-size: 18px;
+    }
+
+    .academic-card {
+        padding: 20px;
+    }
+
+    .academic-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+}
